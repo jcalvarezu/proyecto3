@@ -6,6 +6,8 @@ import com.pluralsight.model.Activity;
 
 public interface ActivityRepository {
   
-  List<Activity> findAllActivites();
+  List<Activity> findAllActivities();
+
+  Activity findActivity(String activityId);
 
 }

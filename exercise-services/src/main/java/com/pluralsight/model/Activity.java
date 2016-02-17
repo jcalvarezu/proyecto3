@@ -6,6 +6,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Activity {
   
+  private String id;
   private String description;
   private int duration;
   
@@ -25,4 +26,14 @@ public class Activity {
   public void setDuration(int duration) {
 	this.duration = duration;
   }
+
+  public String getId() {
+	return id;
+  }
+
+  public void setId(String id) {
+	this.id = id;
+  }
+  
+  
 }
