@@ -8,6 +8,11 @@ import com.pluralsight.model.User;
 
 public class ActivityRepositoryStub implements ActivityRepository {
   
+
+  @Override
+  public void create(Activity activity) {
+	// Code for insert an activity on the DB - Not created
+  }
 	
   public List<Activity> findAllActivities () {
   
